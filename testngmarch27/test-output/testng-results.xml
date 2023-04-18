@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-10T22:05:16 EDT" name="regression" finished-at="2023-04-10T22:05:31 EDT" duration-ms="15684">
+    <groups>
+    </groups>
+    <test started-at="2023-04-10T22:05:16 EDT" name="chrome browser" finished-at="2023-04-10T22:05:31 EDT" duration-ms="15684">
+      <class name="banking3.testngmarch27.NewTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String)[pri:0, instance:banking3.testngmarch27.NewTest@2f8dad04]" started-at="2023-04-10T22:05:16 EDT" name="beforeMethod" finished-at="2023-04-10T22:05:30 EDT" duration-ms="14091" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="signin_facebbok()[pri:1, instance:banking3.testngmarch27.NewTest@2f8dad04]" started-at="2023-04-10T22:05:30 EDT" name="signin_facebbok" finished-at="2023-04-10T22:05:30 EDT" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin_facebbok -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:banking3.testngmarch27.NewTest@2f8dad04]" started-at="2023-04-10T22:05:30 EDT" name="afterMethod" finished-at="2023-04-10T22:05:31 EDT" duration-ms="1372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- banking3.testngmarch27.NewTest -->
+    </test> <!-- chrome browser -->
+  </suite> <!-- regression -->
+</testng-results>
